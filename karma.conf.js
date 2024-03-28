@@ -48,8 +48,8 @@ module.exports = function (config) {
     autoWatch: true,
     browsers: ['Chrome'],
     customLaunchers: {
-      ChromeCI: {
-        base: 'Chrome',
+      ChromeHeadlessCI: {
+        base: 'ChromeHeadless',
         flags: [
           '--no-sandbox'
         ]

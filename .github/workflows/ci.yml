@@ -13,4 +13,4 @@ jobs:
       - name: install dependencies
         run: npm ci
       - name: run tests
-        run: npx ng test --no-watch --code-coverage --browsers=ChromeCI
+        run: npm run test

@@ -47,7 +47,7 @@ module.exports = function (config) {
     logLevel: config.LOG_INFO,
     autoWatch: true,
     browsers: ['Chrome'],
-    customLauchers: {
+    customLaunchers: {
       ChromeCI: {
         base: 'Chrome',
         flags: [

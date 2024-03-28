@@ -12,5 +12,5 @@ jobs:
           node-version: 14.x
       - name: install dependencies
         run: npm ci
-      -name: run tests
+      - name: run tests
         run: ng test --no-watch --code-coverage --browsers=ChromeCI
